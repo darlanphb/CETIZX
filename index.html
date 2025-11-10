@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Darlan Cardoso | Portfólio de Projetos de Tecnologia</title>
+    <!-- Inclui o Tailwind CSS para o estilo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuração do Tailwind para usar a fonte Inter -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #1f2937;
+        }
+        /* Estilos personalizados para os botões de tab */
+        .tab-button.active {
+            background-color: #3b82f6; /* Blue 500 */
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        .tab-button {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Cabeçalho (Header) Fixo e Responsivo -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <span class="text-2xl font-extrabold text-[#1f2937] tracking-tight">Prof. Darlan Cardoso</span>
+                </div>
+                <!-- Navegação Desktop -->
+                <nav class="hidden md:flex space-x-10">
+                    <a href="#sobre" class="text-base font-medium text-gray-500 hover:text-blue-600 transition duration-150">Sobre</a>
+                    <a href="#projetos" class="text-base font-medium text-gray-500 hover:text-blue-600 transition duration-150">Projetos</a>
+                    <a href="#contato" class="text-base font-medium text-gray-500 hover:text-blue-600 transition duration-150">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero - Destaque Principal -->
+        <section class="bg-gray-50 pt-16 pb-24 sm:pt-24 sm:pb-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <!-- Icone de Computador/AI -->
+                    <div class="mb-4">
+                        <svg class="mx-auto h-16 w-16 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9.75 22M14.25 17L14.25 22M21 16H3M21 8H3M21 12H3M15 2H9C7.89543 2 7 2.89543 7 4V16C7 17.1046 7.89543 18 9 18H15C16.1046 18 17 17.1046 17 16V4C17 2.89543 16.1046 2 15 2Z" />
+                        </svg>
+                    </div>
+                    <h1 class="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">
+                        Inovação e Tecnologia na Educação
+                    </h1>
+                    <p class="mt-6 text-xl text-gray-500">
+                        Professor Darlan Alves Cardoso, CETI Zulmira Xavier
+                    </p>
+                    <p class="mt-3 text-lg text-gray-500 max-w-2xl mx-auto">
+                        Guiando alunos nas fronteiras do conhecimento em Inteligência Artificial, Desenvolvimento de Sistemas e Banco de Dados.
+                    </p>
+                    <div class="mt-10 flex justify-center">
+                        <a href="#projetos" class="px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 shadow-lg transform hover:scale-105 transition duration-300">
+                            Ver Projetos de Alunos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre (About) -->
+        <section id="sobre" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:text-center">
+                    <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Trajetória e Missão</h2>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                        A Jornada de Ensino e Inovação
+                    </p>
+                </div>
+                <div class="mt-10 lg:grid lg:grid-cols-3 lg:gap-12">
+                    <!-- Card 1: CETI Zulmira Xavier -->
+                    <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300 mb-6 lg:mb-0">
+                        <svg class="h-10 w-10 text-blue-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h-4m-4 0H5m4 0h6m8-14H5"/></svg>
+                        <h3 class="text-lg font-medium text-gray-900">CETI Zulmira Xavier</h3>
+                        <p class="mt-2 text-gray-600">Foco na educação técnica de excelência, preparando os jovens para os desafios do mercado de trabalho em tecnologia.</p>
+                    </div>
+
+                    <!-- Card 2: Metodologia Ativa -->
+                    <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300 mb-6 lg:mb-0">
+                        <svg class="h-10 w-10 text-blue-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                        <h3 class="text-lg font-medium text-gray-900">Aprendizagem Baseada em Projetos (PBL)</h3>
+                        <p class="mt-2 text-gray-600">Os alunos aplicam teoria em projetos práticos, ganhando experiência real em desenvolvimento de software e análise de dados.</p>
+                    </div>
+
+                    <!-- Card 3: Formando o Futuro -->
+                    <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <svg class="h-10 w-10 text-blue-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        <h3 class="text-lg font-medium text-gray-900">Habilidades do Século XXI</h3>
+                        <p class="mt-2 text-gray-600">Fomento ao pensamento crítico, resolução de problemas complexos e colaboração, essenciais na era digital.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Projetos - Abas Interativas para Cursos -->
+        <section id="projetos" class="py-16 sm:py-24 bg-[#e5e7eb]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:text-center mb-12">
+                    <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Projetos de Alunos</h2>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                        Destaques dos Cursos de Tecnologia
+                    </p>
+                </div>
+
+                <!-- Controles de Navegação por Abas (Tabs) -->
+                <div class="flex flex-wrap justify-center space-x-2 sm:space-x-4 mb-10">
+                    <button id="tab-ia" class="tab-button active px-5 py-2.5 rounded-full font-semibold bg-gray-200 text-gray-700 hover:bg-blue-100 transition duration-150" onclick="showTab('ia')">
+                        Inteligência Artificial (IA)
+                    </button>
+                    <button id="tab-sistemas" class="tab-button px-5 py-2.5 rounded-full font-semibold bg-gray-200 text-gray-700 hover:bg-blue-100 transition duration-150" onclick="showTab('sistemas')">
+                        Desenvolvimento de Sistemas
+                    </button>
+                    <button id="tab-bd" class="tab-button px-5 py-2.5 rounded-full font-semibold bg-gray-200 text-gray-700 hover:bg-blue-100 transition duration-150" onclick="showTab('bd')">
+                        Banco de Dados
+                    </button>
+                </div>
+
+                <!-- Conteúdo das Abas -->
+                <div id="content-ia" class="tab-content grid md:grid-cols-2 gap-8">
+                    <!-- Card Projeto IA 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-600">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Reconhecimento de Imagens para Classificação</h3>
+                        <p class="text-sm text-blue-600 mb-4">Módulo de Visão Computacional</p>
+                        <p class="text-gray-700">Desenvolvimento de um modelo de Deep Learning (Redes Neurais Convolucionais) capaz de identificar e classificar objetos em tempo real. O projeto visa aplicações práticas na agricultura e segurança escolar.</p>
+                        <ul class="mt-4 space-y-1 text-sm text-gray-600 list-disc list-inside">
+                            <li>Tecnologias: Python, TensorFlow/Keras.</li>
+                            <li>Impacto: Aceleração da análise e tomada de decisão.</li>
+                        </ul>
+                    </div>
+                    <!-- Card Projeto IA 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-600">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Chatbot de Suporte Educacional</h3>
+                        <p class="text-sm text-blue-600 mb-4">Processamento de Linguagem Natural (PLN)</p>
+                        <p class="text-gray-700">Criação de um assistente virtual baseado em regras e modelos de linguagem simples para responder dúvidas frequentes dos alunos sobre horários, notas e materiais didáticos da escola.</p>
+                        <ul class="mt-4 space-y-1 text-sm text-gray-600 list-disc list-inside">
+                            <li>Tecnologias: JavaScript, APIs de NLP.</li>
+                            <li>Impacto: Melhoria da comunicação interna da instituição.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="content-sistemas" class="tab-content hidden grid md:grid-cols-2 gap-8">
+                    <!-- Card Projeto Sistemas 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-600">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Sistema de Gestão de Biblioteca (Web)</h3>
+                        <p class="text-sm text-green-600 mb-4">Projeto Full-Stack</p>
+                        <p class="text-gray-700">Desenvolvimento de um sistema completo para controle de acervo, empréstimos e usuários. Utiliza arquitetura MVC, demonstrando proficiência em front-end, back-end e integração com banco de dados.</p>
+                        <ul class="mt-4 space-y-1 text-sm text-gray-600 list-disc list-inside">
+                            <li>Tecnologias: HTML, CSS, JavaScript (Front-end), Node.js (Back-end).</li>
+                            <li>Impacto: Projeto funcional para uso interno do CETI.</li>
+                        </ul>
+                    </div>
+                    <!-- Card Projeto Sistemas 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-600">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Aplicação Mobile de Monitoramento de Estudos</h3>
+                        <p class="text-sm text-green-600 mb-4">Desenvolvimento Mobile Básico</p>
+                        <p class="text-gray-700">Protótipo de aplicativo para rastrear o tempo gasto em diferentes disciplinas, utilizando metodologias ágeis (Scrum) e princípios de Design UX/UI.</p>
+                        <ul class="mt-4 space-y-1 text-sm text-gray-600 list-disc list-inside">
+                            <li>Tecnologias: Ferramentas de prototipagem (Figma), Lógica de programação.</li>
+                            <li>Impacto: Desenvolvimento de habilidades de gestão de projetos.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="content-bd" class="tab-content hidden grid md:grid-cols-2 gap-8">
+                    <!-- Card Projeto BD 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-600">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Modelagem de Dados para E-commerce Local</h3>
+                        <p class="text-sm text-red-600 mb-4">Design e Normalização</p>
+                        <p class="text-gray-700">Criação de um modelo Entidade-Relacionamento (ER) de alta complexidade e sua posterior normalização (até a 3FN), garantindo integridade, consistência e eficiência para um sistema de vendas online fictício.</p>
+                        <ul class="mt-4 space-y-1 text-sm text-gray-600 list-disc list-inside">
+                            <li>Tecnologias: Diagramas ER/UML, Normalização.</li>
+                            <li>Impacto: Base sólida para qualquer desenvolvimento de sistema.</li>
+                        </ul>
+                    </div>
+                    <!-- Card Projeto BD 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-600">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Otimização de Consultas SQL</h3>
+                        <p class="text-sm text-red-600 mb-4">Performance e Índices</p>
+                        <p class="text-gray-700">Estudo de caso focado na análise de planos de execução de consultas (EXPLAIN) e na criação de índices estratégicos para otimizar o tempo de resposta em grandes volumes de dados simulados.</p>
+                        <ul class="mt-4 space-y-1 text-sm text-gray-600 list-disc list-inside">
+                            <li>Tecnologias: SQL (PostgreSQL/MySQL), Análise de performance.</li>
+                            <li>Impacto: Foco na escalabilidade e manutenção de sistemas.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seção de Contato (Footer Complementar) -->
+        <section id="contato" class="py-16 sm:py-24 bg-blue-600">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                    Conecte-se com o Professor Darlan
+                </h2>
+                <p class="mt-4 text-xl text-blue-200">
+                    Interessado em saber mais sobre os projetos ou parcerias?
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <!-- Placeholder de Email -->
+                    <a href="mailto:darlan.alves.cardoso@exemplo.com" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition duration-300">
+                        Enviar E-mail (Exemplo)
+                    </a>
+                    <!-- Placeholder de LinkedIn ou Plataforma -->
+                    <a href="#" class="bg-transparent border border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300">
+                        LinkedIn (Exemplo)
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-400">
+                &copy; 2025 Prof. Darlan Alves Cardoso. Portfólio de Projetos do CETI Zulmira Xavier.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript para a Funcionalidade das Abas -->
+    <script>
+        /**
+         * Função para controlar a exibição das abas de projetos (IA, Sistemas, BD).
+         * @param {string} tabId - O ID da aba a ser exibida (e.g., 'ia', 'sistemas', 'bd').
+         */
+        function showTab(tabId) {
+            // 1. Oculta todos os conteúdos das abas
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.classList.add('hidden');
+            });
+
+            // 2. Remove a classe 'active' de todos os botões
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+
+            // 3. Exibe o conteúdo da aba selecionada
+            const selectedContent = document.getElementById('content-' + tabId);
+            if (selectedContent) {
+                selectedContent.classList.remove('hidden');
+            }
+
+            // 4. Ativa o botão da aba selecionada
+            const selectedButton = document.getElementById('tab-' + tabId);
+            if (selectedButton) {
+                selectedButton.classList.add('active');
+            }
+        }
+
+        // Garante que a primeira aba ('ia') seja exibida quando a página carregar
+        window.onload = () => {
+             // Assegura que o script de Tailwind está carregado
+             if (typeof tailwind !== 'undefined') {
+                 showTab('ia');
+             } else {
+                 // Fallback simples caso Tailwind não carregue imediatamente (improvável, mas seguro)
+                 setTimeout(() => showTab('ia'), 100);
+             }
+        };
+    </script>
+</body>
+</html>
