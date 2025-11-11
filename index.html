@@ -3,119 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CETI Zulmira Xavier - Educação de Qualidade</title>
-    <meta name="description" content="Site oficial do CETI Zulmira Xavier - Ensino Médio Integrado ao Técnico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>CETI Zulmira Xavier - Luís Correia, PI</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Roboto', sans-serif; line-height: 1.6; color: #333; }
-        header {
-            background: linear-gradient(135deg, #0066CC, #0099FF);
-            color: white;
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-        header img {
-            max-width: 120px;
-            border-radius: 50%;
-            border: 4px solid white;
-            margin-bottom: 1rem;
-        }
-        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-        h2 { color: #0066CC; margin: 2rem 0 1rem; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
-        .banner { background: #003366; color: white; padding: 3rem 1rem; text-align: center; }
-        .info { padding: 3rem 0; }
-        .cards { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 2rem; }
-        .card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            padding: 2rem;
-            flex: 1;
-            min-width: 280px;
-            max-width: 350px;
-            text-align: center;
-        }
-        .card i { font-size: 3rem; color: #0099FF; margin-bottom: 1rem; }
-        footer {
-            background: #003366;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
-        }
-        @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #007bff; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; max-width: 800px; margin: 0 auto; background: white; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-
     <header>
-        <div class="container">
-            <img src="https://via.placeholder.com/120x120/0066CC/FFFFFF?text=CETI" alt="Logo CETI Zulmira Xavier">
-            <h1>CETI Zulmira Xavier</h1>
-            <p>Ensino Médio Integrado | Excelência | Inovação</p>
-        </div>
+        <h1>Bem-vindo ao CETI Zulmira Xavier</h1>
+        <p>Centro Estadual de Tempo Integral - Luís Correia, Piauí</p>
     </header>
-
-    <section class="banner">
-        <div class="container">
-            <h2>Bem-vindo à nossa escola!</h2>
-            <p>Formando cidadãos conscientes e profissionais qualificados desde 1985.</p>
-        </div>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre a Escola</h2>
+        <p>O CETI Zulmira Xavier é uma instituição estadual de ensino médio integrada ao técnico, localizada no centro de Luís Correia, PI. Oferecemos educação de qualidade em tempo integral, com foco em formação profissional e acadêmica.</p>
+        <p>Endereço: Rua Afonso Serra, 605 - Centro, Luís Correia - PI, CEP: 64220-000.</p>
     </section>
-
-    <section class="info">
-        <div class="container">
-            <h2 style="text-align:center;">Nossos Cursos Técnicos</h2>
-            <div class="cards">
-                <div class="card">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Técnico em Informática</h3>
-                    <p>Programação, redes e desenvolvimento de sistemas.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-user-nurse"></i>
-                    <h3>Técnico em Enfermagem</h3>
-                    <p>Formação completa para atuação na área da saúde.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Técnico em Administração</h3>
-                    <p>Gestão empresarial e empreendedorismo.</p>
-                </div>
-            </div>
-
-            <h2 style="text-align:center; margin-top: 3rem;">Informações Importantes</h2>
-            <div class="cards">
-                <div class="card">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Endereço</h3>
-                    <p>Rua Exemplo, 123 - Centro<br>Parnaíba - PI<br>CEP: 64200-000</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-phone"></i>
-                    <h3>Telefone</h3>
-                    <p>(86) 99999-9999</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-envelope"></i>
-                    <h3>E-mail</h3>
-                    <p>contato@cetizulmiraxavier.pi.gov.br</p>
-                </div>
-            </div>
-        </div>
+    <section id="cursos">
+        <h2>Cursos Oferecidos</h2>
+        <ul>
+            <li>Ensino Médio Integrado</li>
+            <li>Técnico em Desenvolvimento de Sistemas</li>
+            <li>Técnico em Guia de Turismo</li>
+        </ul>
+        <p>Para 2025, estamos oferecendo turmas para o 1º ano nesses cursos técnicos.</p>
     </section>
-
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Telefone: (86) [insira o número, se conhecido]</p>
+        <p>Email: [insira o email, se conhecido]</p>
+        <p>Siga-nos no Instagram: <a href="https://www.instagram.com/ceti_zulmira_xavier/">@ceti_zulmira_xavier</a></p>
+    </section>
     <footer>
-        <div class="container">
-            <p>&copy; 2025 CETI Zulmira Xavier - Todos os direitos reservados.</p>
-            <p>Desenvolvido com ❤️ por alunos e professores</p>
-        </div>
+        <p>&copy; 2025 CETI Zulmira Xavier. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
